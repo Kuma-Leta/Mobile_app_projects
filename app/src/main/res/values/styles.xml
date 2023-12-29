@@ -1,0 +1,21 @@
+<resources>
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="OperatorButton" parent="CalculatorButton">
+        <item name="android:textColor">#FF8800</item>
+    </style>
+
+    <style name="EqualsButton" parent="CalculatorButton">
+        <item name="android:background">#FF8800</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ClearButton" parent="CalculatorButton">
+        <item name="android:background">#CCCCCC</item>
+    </style>
+</resources>
